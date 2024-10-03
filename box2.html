@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Destinations</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom Animations */
+    .fade-in {
+      animation: fadeIn 0.5s ease-in-out forwards;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body class="bg-gray-50">
+  <header class="py-6 bg-blue-600 text-white text-center">
+    <h1 class="text-3xl font-bold fade-in">Explore the World</h1>
+    <p class="mt-2 fade-in">Find your next travel destination and get visa information on time</p>
+  </header>
+  <div class="flex justify-center items-center mt-4 py-[3rem]">
+    <div class="flex space-x-4 bg-white p-2 rounded-full shadow-md">
+        <!-- Icon Button -->
+        <button id="icon-button" class="bg-white p-2 rounded-full border border-gray-200 hover:bg-gray-100 transition-all duration-200">
+            <img src="path_to_icon_image.svg" alt="icon" class="h-5 w-5">
+        </button>
+
+        <!-- Tab Buttons -->
+        <button id="tab-all" class="tab-button active bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors duration-200">
+            All
+        </button>
+        <button id="tab-instant" class="tab-button bg-white text-gray-600 py-2 px-4 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+            Instant
+        </button>
+        <button id="tab-week" class="tab-button bg-white text-gray-600 py-2 px-4 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+            In a week
+        </button>
+        <button id="tab-month" class="tab-button bg-white text-gray-600 py-2 px-4 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+            In a month
+        </button>
+    </div>
+</div>
+
+
+  <main class="container mx-auto p-4">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 fade-in">
+      <!-- Card Template -->
+      <div class="bg-white rounded-lg shadow-md hover:shadow-xl transform transition-transform duration-300 hover:scale-105">
+        <img src="image-placeholder.jpg" alt="Vietnam" class="rounded-t-lg object-cover h-48 w-full">
+        <div class="p-4">
+          <h2 class="text-xl font-bold mb-2">Vietnam</h2>
+          <p class="text-gray-700 mb-4">PKR 55,595</p>
+          <p class="text-blue-600">Visa on Time: 25 Sep, 01:21 PM</p>
+          <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200">View More</button>
+        </div>
+      </div>
+
+      <!-- More Cards -->
+      <div class="bg-white rounded-lg shadow-md hover:shadow-xl transform transition-transform duration-300 hover:scale-105">
+        <img src="image-placeholder.jpg" alt="Indonesia" class="rounded-t-lg object-cover h-48 w-full">
+        <div class="p-4">
+          <h2 class="text-xl font-bold mb-2">Indonesia</h2>
+          <p class="text-gray-700 mb-4">PKR 27,798</p>
+          <p class="text-blue-600">Visa on Time: 24 Oct, 05:21 AM</p>
+          <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200">View More</button>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-md hover:shadow-xl transform transition-transform duration-300 hover:scale-105">
+        <img src="image-placeholder.jpg" alt="Azerbaijan" class="rounded-t-lg object-cover h-48 w-full">
+        <div class="p-4">
+          <h2 class="text-xl font-bold mb-2">Azerbaijan</h2>
+          <p class="text-gray-700 mb-4">PKR 12,787</p>
+          <p class="text-blue-600">Visa on Time: 04 Oct, 05:21 AM</p>
+          <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200">View More</button>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-md hover:shadow-xl transform transition-transform duration-300 hover:scale-105">
+        <img src="image-placeholder.jpg" alt="Australia" class="rounded-t-lg object-cover h-48 w-full">
+        <div class="p-4">
+          <h2 class="text-xl font-bold mb-2">Australia</h2>
+          <p class="text-gray-700 mb-4">PKR 41,697</p>
+          <p class="text-blue-600">Visa on Time: 18 Nov, 04:44 AM</p>
+          <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200">View More</button>
+        </div>
+      </div>
+
+      <!-- Add more cards similarly by copying the structure -->
+    </div>
+  </main>
+  <main class="container mx-auto p-4">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 fade-in">
+      <!-- Card Template -->
+      <div class="bg-white rounded-lg shadow-md hover:shadow-xl transform transition-transform duration-300 hover:scale-105">
+        <img src="image-placeholder.jpg" alt="Vietnam" class="rounded-t-lg object-cover h-48 w-full">
+        <div class="p-4">
+          <h2 class="text-xl font-bold mb-2">Vietnam</h2>
+          <p class="text-gray-700 mb-4">PKR 55,595</p>
+          <p class="text-blue-600">Visa on Time: 25 Sep, 01:21 PM</p>
+          <a href="./box3.html">
+          <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200">View More</button></a>
+        </div>
+      </div>
+
+      <!-- More Cards -->
+      <div class="bg-white rounded-lg shadow-md hover:shadow-xl transform transition-transform duration-300 hover:scale-105">
+        <img src="image-placeholder.jpg" alt="Indonesia" class="rounded-t-lg object-cover h-48 w-full">
+        <div class="p-4">
+          <h2 class="text-xl font-bold mb-2">Indonesia</h2>
+          <p class="text-gray-700 mb-4">PKR 27,798</p>
+          <p class="text-blue-600">Visa on Time: 24 Oct, 05:21 AM</p>
+          <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200">View More</button>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-md hover:shadow-xl transform transition-transform duration-300 hover:scale-105">
+        <img src="image-placeholder.jpg" alt="Azerbaijan" class="rounded-t-lg object-cover h-48 w-full">
+        <div class="p-4">
+          <h2 class="text-xl font-bold mb-2">Azerbaijan</h2>
+          <p class="text-gray-700 mb-4">PKR 12,787</p>
+          <p class="text-blue-600">Visa on Time: 04 Oct, 05:21 AM</p>
+          <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200">View More</button>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-md hover:shadow-xl transform transition-transform duration-300 hover:scale-105">
+        <img src="image-placeholder.jpg" alt="Australia" class="rounded-t-lg object-cover h-48 w-full">
+        <div class="p-4">
+          <h2 class="text-xl font-bold mb-2">Australia</h2>
+          <p class="text-gray-700 mb-4">PKR 41,697</p>
+          <p class="text-blue-600">Visa on Time: 18 Nov, 04:44 AM</p>
+          <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200">View More</button>
+        </div>
+      </div>
+
+      <!-- Add more cards similarly by copying the structure -->
+    </div>
+  </main>
+  <main class="container mx-auto p-4">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 fade-in">
+      <!-- Card Template -->
+      <div class="bg-white rounded-lg shadow-md hover:shadow-xl transform transition-transform duration-300 hover:scale-105">
+        <img src="image-placeholder.jpg" alt="Vietnam" class="rounded-t-lg object-cover h-48 w-full">
+        <div class="p-4">
+          <h2 class="text-xl font-bold mb-2">Vietnam</h2>
+          <p class="text-gray-700 mb-4">PKR 55,595</p>
+          <p class="text-blue-600">Visa on Time: 25 Sep, 01:21 PM</p>
+          <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200">View More</button>
+        </div>
+      </div>
+
+      <!-- More Cards -->
+      <div class="bg-white rounded-lg shadow-md hover:shadow-xl transform transition-transform duration-300 hover:scale-105">
+        <img src="image-placeholder.jpg" alt="Indonesia" class="rounded-t-lg object-cover h-48 w-full">
+        <div class="p-4">
+          <h2 class="text-xl font-bold mb-2">Indonesia</h2>
+          <p class="text-gray-700 mb-4">PKR 27,798</p>
+          <p class="text-blue-600">Visa on Time: 24 Oct, 05:21 AM</p>
+          <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200">View More</button>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-md hover:shadow-xl transform transition-transform duration-300 hover:scale-105">
+        <img src="image-placeholder.jpg" alt="Azerbaijan" class="rounded-t-lg object-cover h-48 w-full">
+        <div class="p-4">
+          <h2 class="text-xl font-bold mb-2">Azerbaijan</h2>
+          <p class="text-gray-700 mb-4">PKR 12,787</p>
+          <p class="text-blue-600">Visa on Time: 04 Oct, 05:21 AM</p>
+          <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200">View More</button>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-md hover:shadow-xl transform transition-transform duration-300 hover:scale-105">
+        <img src="image-placeholder.jpg" alt="Australia" class="rounded-t-lg object-cover h-48 w-full">
+        <div class="p-4">
+          <h2 class="text-xl font-bold mb-2">Australia</h2>
+          <p class="text-gray-700 mb-4">PKR 41,697</p>
+          <p class="text-blue-600">Visa on Time: 18 Nov, 04:44 AM</p>
+          <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200">View More</button>
+        </div>
+      </div>
+
+      <!-- Add more cards similarly by copying the structure -->
+    </div>
+  </main>
+  <main class="container mx-auto p-4">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 fade-in">
+      <!-- Card Template -->
+      <div class="bg-white rounded-lg shadow-md hover:shadow-xl transform transition-transform duration-300 hover:scale-105">
+        <img src="image-placeholder.jpg" alt="Vietnam" class="rounded-t-lg object-cover h-48 w-full">
+        <div class="p-4">
+          <h2 class="text-xl font-bold mb-2">Vietnam</h2>
+          <p class="text-gray-700 mb-4">PKR 55,595</p>
+          <p class="text-blue-600">Visa on Time: 25 Sep, 01:21 PM</p>
+          <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200">View More</button>
+        </div>
+      </div>
+
+      <!-- More Cards -->
+      <div class="bg-white rounded-lg shadow-md hover:shadow-xl transform transition-transform duration-300 hover:scale-105">
+        <img src="image-placeholder.jpg" alt="Indonesia" class="rounded-t-lg object-cover h-48 w-full">
+        <div class="p-4">
+          <h2 class="text-xl font-bold mb-2">Indonesia</h2>
+          <p class="text-gray-700 mb-4">PKR 27,798</p>
+          <p class="text-blue-600">Visa on Time: 24 Oct, 05:21 AM</p>
+          <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200">View More</button>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-md hover:shadow-xl transform transition-transform duration-300 hover:scale-105">
+        <img src="image-placeholder.jpg" alt="Azerbaijan" class="rounded-t-lg object-cover h-48 w-full">
+        <div class="p-4">
+          <h2 class="text-xl font-bold mb-2">Azerbaijan</h2>
+          <p class="text-gray-700 mb-4">PKR 12,787</p>
+          <p class="text-blue-600">Visa on Time: 04 Oct, 05:21 AM</p>
+          <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200">View More</button>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-md hover:shadow-xl transform transition-transform duration-300 hover:scale-105">
+        <img src="image-placeholder.jpg" alt="Australia" class="rounded-t-lg object-cover h-48 w-full">
+        <div class="p-4">
+          <h2 class="text-xl font-bold mb-2">Australia</h2>
+          <p class="text-gray-700 mb-4">PKR 41,697</p>
+          <p class="text-blue-600">Visa on Time: 18 Nov, 04:44 AM</p>
+          <button class="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200">View More</button>
+        </div>
+      </div>
+
+      <!-- Add more cards similarly by copying the structure -->
+    </div>
+  </main>
+  <footer class="bg-blue-600 text-white text-center py-4 mt-6">
+    <p>&copy; 2024 Explore the World. All rights reserved.</p>
+  </footer>
+</body>
+</html>
